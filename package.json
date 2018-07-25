@@ -1,0 +1,40 @@
+{
+  "name": "hello-world",
+  "version": "0.0.1",
+  "private": "true",
+  "description": "My new Apigee 127 Project",
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "main": "server.js",
+  "dependencies": {
+    "a127-magic": "^0.12.0",
+    "asyncawait": "^1.0.7",
+    "express": "3.x.x",
+    "mongoose": "5.2.4",
+    "volos-analytics-apigee": "",
+    "volos-analytics-common": "",
+    "volos-analytics-memory": "",
+    "volos-cache-apigee": "",
+    "volos-cache-memory": "",
+    "volos-cache-redis": "",
+    "volos-oauth-apigee": "",
+    "volos-oauth-redis": "",
+    "volos-quota-apigee": "",
+    "volos-quota-memory": "",
+    "volos-quota-redis": "",
+    "volos-spikearrest-memory": ""
+  },
+  "devDependencies": {
+    "should": "4.4.x",
+    "supertest": "0.15.x"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "api": {
+    "name": "hello-world",
+    "basePath": "/hello-world",
+    "main": "server.js"
+  }
+}
